@@ -1,0 +1,69 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+    background-color: #000 !important;
+    }
+.dropdown-menu{
+    background-color: #000 !important;
+}
+.nav-link{
+    color: white !important;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 16px;
+.collapsed{
+    color: white !important;
+    background-color: white !important;
+}
+}
+#logo {
+    float: left;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.jumbotron{
+    border-radius: 10px;
+    background-image: asset-url('jumbo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+
+}
+#home-container{
+    margin-top: 40px;
+    
+}
+.lead{
+    color: white;
+}
+#title{
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background-color: #ddd;
+}
+
+
+
